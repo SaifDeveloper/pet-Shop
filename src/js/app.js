@@ -63,7 +63,7 @@ App = {
           $('.panel-pet').eq(i).find("button").text("Success").attr("disabled",true)
         }   
       }
-    }).catch((err)=>{console.log(error.message)});
+    }).catch((error)=>{console.log(error.message)});
   },
 
   handleAdopt: function(event) {
